@@ -53,5 +53,5 @@ tmp
 .yardoc
 _yardoc
 doc/
-cv.fdb_latexmk
+cv_simon_walker.fdb_latexmk
 *.fls
