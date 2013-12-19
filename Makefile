@@ -1,10 +1,12 @@
-all: cv.pdf
+STUB=cv_simon_walker
 
-cv.pdf: cv.tex
-	latexmk --pdf cv
+all: ${STUB}.pdf
+
+${STUB}.pdf: ${STUB}.tex
+	latexmk --pdf ${STUB}
 
 clean:
-	latexmk -C cv
+	latexmk -C ${STUB}
 	@rm -f *.bbl
 	@rm -f *.pdf
 
