@@ -54,5 +54,4 @@ tmp
 _yardoc
 doc/
 cv.fdb_latexmk
-*.pdf
 *.fls
