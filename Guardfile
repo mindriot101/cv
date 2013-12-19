@@ -6,6 +6,6 @@
 #
 guard :shell do
   watch(/(.+)(\.tex$)/) do |m|
-    system "latexmk --pdf #{m[1]}"
+    system "make"
   end
 end
