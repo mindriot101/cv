@@ -1,13 +1,9 @@
 STUB=cv_simon_walker
 
-all: ${STUB}.pdf
+all: ${STUB}.html ${STUB}.pdf
 
-${STUB}.pdf: ${STUB}.tex
-	latexmk --pdf ${STUB}
+${STUB}.html: ${STUB}.markdown
+	pandoc --standalone --from markdown --to html -o $@ $< -c style.css
 
-clean:
-	latexmk -C ${STUB}
-	@rm -f *.bbl
-	@rm -f *.pdf
-
-.PHONEY: clean
+${STUB}.pdf: ${STUB}.markdown
+	pandoc --standalone --from markdown  -o $@ $< -c style.css

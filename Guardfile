@@ -5,7 +5,11 @@
 #   watch(%r{file/path}) { `command(s)` }
 #
 guard :shell do
-  watch(/(.+)(\.tex$)/) do |m|
+  watch(/(.+)(\.markdown$)/) do |m|
     system "make"
   end
+end
+
+guard :livereload do
+  watch(/(.+)(\.markdown$)/)
 end
