@@ -7,3 +7,12 @@ ${STUB}.html: ${STUB}.markdown
 
 ${STUB}.pdf: ${STUB}.markdown
 	pandoc --standalone --from markdown  -o $@ $< -c style.css
+
+index.html: ${STUB}.html
+	cp $< $@
+
+publish: ${STUB}.html index.html
+	git add --all
+	git commit -m "builds site $(date)"
+	git push
+
