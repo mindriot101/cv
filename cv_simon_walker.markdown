@@ -22,6 +22,17 @@
     10 A's or A*'s
 
 
+##Scientific publications
+
+&nbsp;
+:   S. R. Walker et al. Determining the underlying hot Jupiter distribution through an under- standing of WASP selection effects. In prep., 2013.
+
+&nbsp;
+:   P. J. Wheatley et al. The Next Generation Transit Survey (NGTS). In *European Physical Journal Web of Conferences*, volume 47 of *European Physical Journal Web of Conferences*, page 13002, April 2013.
+
+&nbsp;
+:   B. Chazelas et al. NGTS: a robotic transit survey to detect Neptune and super-Earth mass planets. In *Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series*, volume 8444 of *Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series*, September 2012.
+
 ##Previous employment
 
 2009-2011
