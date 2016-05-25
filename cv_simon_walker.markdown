@@ -35,8 +35,13 @@
 
 ##Previous employment
 
+2014-
+:   Postdoctoral research fellow at the University of Warwick (Coventry, UK)
+
+    Working on the NGTS ground based transit survey. Largely writing production analysis software for the instrument, and data analysis looking into improving data quality.
+
 2009-2011
-:   Undergraduate physics assessor at the University of Warwick (Coventry)
+:   Undergraduate physics assessor at the University of Warwick (Coventry, UK)
 
     Assessing undergraduate students' 2nd year astronomy lab books, and developing critical thinking skills when judging the work quality.
 
@@ -56,6 +61,9 @@ Operating systems
 
 Others
 :   C, HTML, Ruby, Haskell, LaTeX, SQL
+
+Open source
+:   [https://github.com/mindriot101](https://github.com/mindriot101)
 
 
 ##Interests
